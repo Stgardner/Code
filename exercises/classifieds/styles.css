@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: 500%;
+    margin: 0px;
+}
+#horizontal {
+    height: 3px;
+    border: none;
+    color: black;
+    background-color: black;
+}
+article {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+hr {
+    margin: 4px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+h2 {
+   background-color: black;
+   color: white;
+   font-size: 250%;
+}
+p.one {
+    border-style: dotted;
+    background-color: light gray;
+}
+p.two {
+    border-style: solid;
+}
+body {
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/ivory-off-white-paper-texture.jpg");
+    background-color: #cccccc;
+}
