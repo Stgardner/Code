@@ -9,7 +9,7 @@ var rottenTomatoes =
         dontVitoCorleone: "Marlon Brando", 
         michaelCorleone: "Al Pacino",
         sonnyCorleone: "James Caan",
-        clemenza: "Richard S. Castellano"
+        clemenza: "Richard S. Castellano",
         }
     ],
     director: "Francis Ford Coppola",
@@ -39,8 +39,8 @@ var rottenTomatoes =
     screenplay: "Herman J. Mankiewicz",
     tomatoMeter: [
         {
-            critics: "98%",
-            audience: "98%",
+            critics: "96%",
+            audience: "97%",
         }
     ],
     imbdPopularity: 1371,
@@ -48,9 +48,11 @@ var rottenTomatoes =
 }
 ]
 
-function tomatoMeter() {
+function getRating() {
    for(i=0; i<rottenTomatoes.length; i++) {
-       console.log(rottenTomatoes[i].tomatoMeter)
+    var rating = rottenTomatoes[i].tomatoMeter[0]   
+    var names = rottenTomatoes[i].name
+    console.log("The critics said " + names + " got a " + rating.critics + " rating, while the audience gave it a "+ rating.audience)
    }
 }
-tomatoMeter()
+getRating()
