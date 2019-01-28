@@ -15,8 +15,8 @@ h2 {
     font-style: italic;
     padding-left: 75px;
 }
-p {
-    text-indent: 25px;
+article {
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
     text-align: left;

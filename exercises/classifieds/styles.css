@@ -36,3 +36,10 @@ body {
     background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/ivory-off-white-paper-texture.jpg");
     background-color: #cccccc;
 }
+img {
+    
+    width: 417px;
+}
+p.three {
+    border-style: dotted;
+}
