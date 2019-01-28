@@ -1,4 +1,5 @@
-var rottenTomatoes = [
+var rottenTomatoes =
+    [
     {
     name: "The Godfather",
     year: 1972,
@@ -46,7 +47,10 @@ var rottenTomatoes = [
     oscarWins: 1,
 }
 ]
-function getActor() {
-    return rottenTomatoes.cast
+
+function tomatoMeter() {
+   for(i=0; i<rottenTomatoes.length; i++) {
+       console.log(rottenTomatoes[i].tomatoMeter)
+   }
 }
-console.log(getActor())
+tomatoMeter()
