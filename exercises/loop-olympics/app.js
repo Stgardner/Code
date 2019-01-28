@@ -1,10 +1,12 @@
-// var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]
-// var myArray = []
-// for(var i = 0; i < fruit.length; i=i+2){
-//     myArray.push(fruit[i])
-// }
-// console.log(myArray) 
+// Bronze Medal
+var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]
+var myArray = []
+for(var i = 0; i < fruit.length; i=i+2){
+    myArray.push(fruit[i])
+}
+console.log(myArray) 
 
+//Silver Medal
 var peopleArray = [
     {
       name: "Harrison Ford",
@@ -32,3 +34,14 @@ var peopleArray = [
   }
   console.log(everyOtherName)
   console.log(occupationsOther)
+
+//Gold Medal
+var array = [0, 0, 0]
+var twoArray = []
+for (i = 0; i < array.length; i++) {
+    twoArray.push(array[i]),
+    twoArray.push(array[i]),
+    twoArray.push(array[i])
+    
+}
+console.log(twoArray)
