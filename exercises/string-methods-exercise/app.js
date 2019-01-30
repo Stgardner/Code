@@ -24,3 +24,14 @@ function capitalizeAndLowercase2(str) {
     
 }
 console.log(capitalizeAndLowercase2("Hellooo"))
+
+function capitalizeAfterSpace(str) {
+    str = str.toLowerCase();
+   str =  str.split(' ');
+   for(i=0; i<str.length;i++) {
+       str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+   }
+
+   return str.join(' ');
+}
+console.log(capitalizeAfterSpace("san diego"))

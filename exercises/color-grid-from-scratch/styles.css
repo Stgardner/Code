@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box; 
     font-size: 0px;
+    
 }
+
 .grid-container {
     display: grid;
     grid-gap: 20px;
