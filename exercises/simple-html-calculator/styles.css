@@ -1,0 +1,55 @@
+#add {
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    bottom: 200;
+    right: 45%;
+    left: 45%;
+    
+   
+    background-color: turquoise;
+  
+    
+}
+#multiply {
+    position: absolute;
+    margin: auto;
+    top:45%;
+    bottom: 200;
+    right: 45%;
+    left: 45%;
+    background-color: green;
+    
+    
+}
+#subtract {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    bottom: 200;
+    right: 45%;
+    left: 45%;
+    background-color: darkturquoise;
+   
+
+}
+#result {
+    color: rgb(1, 82, 1);
+    font-size: 15em;
+    position: absolute;
+    margin: auto;
+    top: 60%;
+    bottom: 45%;
+    right: 45%;
+    left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.calculator {
+    background-color: teal;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
