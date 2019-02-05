@@ -39,7 +39,7 @@ function gamewithKey() {
     } else if (options[index] === 'Put hand in hole') {
         console.log("\n" + "You have died" + "\n")
         if (readlineSync.keyInYN("would you like to restart")) {
-            game()
+            realGame()
         } else {
             console.log("\n" + "The End")
         }
