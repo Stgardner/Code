@@ -14,9 +14,7 @@
 .blueBackground {
     background: black;
 }
-.whiteBackground {
-    background: white;
-}
+
 .nav {
     list-style: none;
 }
@@ -27,13 +25,13 @@
     color: white;
 }
 #blacktext {
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
     padding: 0 1em;
-    font-size: 3em;
+    font-size: 5em;
     align-items: start;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: -6.66%;
     margin-bottom: -1.2%;
 
@@ -41,3 +39,200 @@
 body {
     margin-top: -1%;
 }
+article {
+
+   color: white;
+    left: 33.5%;
+    align-content: flex-start;
+    margin-top: .5%;
+   
+}
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#building {
+    float: left;
+    width: 30%;
+    margin-top: 1%;
+    height: 90%;
+    opacity: 1;
+  
+   
+}
+#cloud {
+    z-index: -1;
+    position: absolute;
+    width: 98.65%;
+    height: 14%;
+    color: black;
+    
+
+}
+body {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+   
+    
+  }
+
+.footer-item {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.footer-one {
+    background-image: url("https://www.climatecouncil.org.au/uploads/2eb45eace658166544bd17037e90ef87.gif");
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+  
+.footer-two {
+    background-image: url("https://thumbs.gfycat.com/OddballTallCrane-size_restricted.gif");
+    background-size: 350px 350px;
+
+}
+
+.footer-three {
+    background-image: url("https://media.giphy.com/media/SotJCbDWOnnWM/giphy.gif");
+    background-size: 350px 350px;
+
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+       
+       
+        
+      }
+    
+    .footer-item {
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+    .footer-one {
+        background-image: url("https://www.climatecouncil.org.au/uploads/2eb45eace658166544bd17037e90ef87.gif");
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+        
+    }
+      
+    .footer-two {
+        background-image: url("https://thumbs.gfycat.com/OddballTallCrane-size_restricted.gif");
+        background-size: 250px 250px;
+    
+    }
+    
+    .footer-three {
+        background-image: url("https://media.giphy.com/media/SotJCbDWOnnWM/giphy.gif");
+        background-size: 250px 250px;
+    
+    }
+    #slogan {
+        align-items: flex-end;
+        color: white;
+        font-size: 1em;
+        margin-top: 5%;
+        margin-right: 3.5%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+}
+
+#bottomer {
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+#sticky {
+    width:100%;
+    padding:20px;
+    padding-bottom:4px;
+    background:black;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+       /*Here's what sticks it*/
+    bottom:0;          /*to the bottom of the body*/
+    left:0;            /*and to the left of the body.*/
+    
+    text-align:center; /*this will center the containers*/
+    
+  }
+  
+  #sticky * {
+    margin:0;
+    padding:0;
+  }
+  
+  #sticky .container {
+    display:inline-block; /*required for centering containers and allowing wrap*/
+    margin-bottom:16px;
+    width:20%; /*relative unit for responsive design*/
+    min-width:150px; /*containers won't get smaller than 200px*/
+    vertical-align:top;
+  }
+  #sticky .container nav span {
+    display:inline-block;
+    margin-bottom:8px;
+  }
+  
+  #sticky li {
+    list-style:none;
+  }
+  
+  #sticky .container h4 {
+    margin-bottom:8px;
+  }
+  
+  #sticky .cta button {
+    margin-top:16px;
+    padding:12px 20px;
+    background:white;
+    font-weight:bold;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    position:relative;
+  }
+  #sticky .cta button:focus {
+    outline:none;
+  }
+  #sticky .cta button:active {
+    top:4px
+  }
+ .about-us {
+     position: relative;
+     width: 100%;
+     height: 90%;
+    z-index: 2;
+     text-align: center;
+    
+   
+ }
+ #about {
+     background-image: url("https://3qrt0f3cy3lx35vbo81iuq7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/GlobalShares-Software-Solutions-bg.jpg");
+    width: 95%;
+    height: 75%;
+
+ }
+ #main-head {
+     overflow: hidden;
+ }
+ #blue-text {
+     color: white;
+ }
