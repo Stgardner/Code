@@ -1,0 +1,91 @@
+#container {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+#container > div {
+    width: calc(100% / 6);
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 20px;
+    height: 270px;
+    width: 270px;
+
+}
+.square1 {
+    background-color: teal;
+    box-shadow: 5px 10px #888888;
+    transition: background-color 3s ease;
+    transition: box-shadow 3s ease;
+}
+
+.square1:hover {
+    background-color: lightgreen;
+    box-shadow: 20px 30px black;
+
+}
+
+.square2 {
+    background-color: gold;
+    transition: all 4s ease;
+}
+.square2:hover {
+    border-radius: 60%;
+    background-color: red;
+    opacity: 0.5;
+
+}
+.square3 {
+    background-color: turquoise;
+    transition: all 2s ease;
+}
+.square3:hover {
+    margin: 2px;
+    height: -50px;
+    width: -50px;
+    background-color: lightblue;
+    opacity: 0.1;
+    box-shadow: 100px 100px teal;
+
+}
+
+.square4 {
+    background-color: indigo;
+    transition: all 6s ease;
+}
+.square4:hover {
+    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    border-style: dotted;
+    border-radius: 20%;
+    box-shadow: 50px 50px red;
+}
+.square5 {
+    background-color: lightgoldenrodyellow;
+    transition: all 2s ease-in;
+}
+.square5:hover {
+    background-image: url("http://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg");
+    opacity: 0.6;
+    border-radius: 10%;
+    
+}
+
+.square6 {
+    background-color: darkred;
+    transition: all 3s ease;
+}
+
+.square6:hover {
+    background-color: black;
+    box-shadow: inset 0 0 0 55px darkred;
+    -webkit-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+}
+

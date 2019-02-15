@@ -120,26 +120,26 @@ body {
     
     .footer-item {
         background-color: white;
-        width: 250px;
-        height: 250px;
+        width: 450px;
+        height: 350px;
         margin: 10px;
     }
     .footer-one {
         background-image: url("https://www.climatecouncil.org.au/uploads/2eb45eace658166544bd17037e90ef87.gif");
         background-repeat: no-repeat;
-        background-size: 250px 250px;
+        background-size: 450px 350px;
         
     }
       
     .footer-two {
         background-image: url("https://thumbs.gfycat.com/OddballTallCrane-size_restricted.gif");
-        background-size: 250px 250px;
+        background-size: 450px 350px;
     
     }
     
     .footer-three {
         background-image: url("https://media.giphy.com/media/SotJCbDWOnnWM/giphy.gif");
-        background-size: 250px 250px;
+        background-size: 450px 350px;
     
     }
     #slogan {
@@ -224,15 +224,49 @@ body {
     
    
  }
- #about {
-     background-image: url("https://3qrt0f3cy3lx35vbo81iuq7b-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/GlobalShares-Software-Solutions-bg.jpg");
-    width: 95%;
-    height: 75%;
-
- }
+ 
  #main-head {
      overflow: hidden;
  }
  #blue-text {
      color: white;
  }
+
+ .row {
+     max-width: 1440px;
+     margin-right: auto;
+     margin-left: auto;
+     display: flex;
+     flex-flow: row wrap;
+
+ }
+ .columns {
+     padding-right: .9375em;
+     padding-left: .9375em;
+     min-width: 0;
+     flex: 0 0 100%;
+ }
+
+
+article {
+    display: block;
+    text-align: center;
+}
+.app-intro {
+    padding: 90px 0 0;
+}
+#vince {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    width: 100%;
+    margin: 0px;
+}
+
+#groundcloud {
+ z-index: 1;
+ position: absolute;
+ bottom: 5px;
+}

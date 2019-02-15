@@ -1,0 +1,69 @@
+{
+    "appetizers":[
+        {
+            "name": "Fondue Bangarang",
+            "ingredients": ["cheese", "laffy taffy", "brown sugar"],
+            "description": "A sugary and cheesy delight."
+         },
+        
+        {
+            "name": "Kung Pao Chicken Slices",
+            "ingredients": ["chicken", "cayenne", "sweet and sour sauce", "special batter"],
+            "description": "spicy and zesty chicken with plenty of sweetness"
+        }
+
+],
+    "cold sandwiches": [
+        {
+            "name": "The Manhattan",
+            "ingredients": ["turkey", "ham", "bacon", "cranberry", "avocado", "pepper jack", "wheat bread"],
+            "description": "Meaty and zesty sandwich with plenty of extra zip"
+        },
+        {
+            "name": "The Quik and Easy",
+            "ingredients": ["three cheese blend", "white bread", "avocado"],
+            "description": "quick and easy without sacrificing flavor"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name": "The Real Bangarang",
+            "ingredients": ["chili pepper", "onion", "green pepper", "pepperjack cheese", "turkey", "lettuce", "7-grain bread", "butter", "sprouts"],
+            "description": "Everything you could ever want in a sandwich plus a little more to keep you coming."
+        },
+        {
+            "name": "Big Burgundy Yellow",
+            "ingredients": ["spicy yellow mustard", "bacon", "chicken", "melted cheese"],
+            "description": "spicy, yet deadly classic sandwich with spicy yellow mustard"
+        }
+    ],
+    "desserts": [
+        {
+            "name": "The Donner Party Vacation",
+            "ingredients": ["hot fudge", "vanilla ice cream", "graham cracker", "oreo", "whipped cream"],
+            "description": "decadent and super sweet combo of the best things in existence"
+        },
+        {
+            "name" : "The Swoop",
+            "ingredients": ["banana", "almond milk", "chocolate", "maple syrup", "salt"],
+            "description": "basically just a smoothie thing that tastes good "
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Peach Iced Tea",
+            "ingredients": ["black tea", "peach flavoring", "cane sugar"],
+            "description": "Just really good tea that tastes like peaches basically"
+        },
+        {
+            "name": "Coca Cola",
+            "ingredients": ["super secret formula", "water", "alot of sugar"],
+            "description": "The classic soda we have all grown to know and love"
+
+        }
+    ]
+
+
+
+
+}

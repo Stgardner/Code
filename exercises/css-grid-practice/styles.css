@@ -1,0 +1,89 @@
+body {
+  margin: 40px;
+}
+.container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  grid-template-rows: repeat(6, 100px);
+  grid-template-areas: 
+  "h h h h h h h h h h h h"
+  "s s s s s s s s s s s s"
+  "c c c c c c c c c c c c"
+  "c c c c c c c c c c c c"
+  "b b b b b b b b b b b b"
+  "f f f f f f f f f f f f"
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+  .container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "s s c c c c c c c c c c"
+    "s s c c c c c c c c c c"
+    "b b b b b b b b b b b b"
+    "f f f f f f f f f f f f"
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "s s c c c c c c c c b b"
+    "s s c c c c c c c c b b"
+    "f f f f f f f f f f f f"
+  }
+
+
+
+}
+
+
+.box {
+  border-radius: 5px;
+  padding: 20px;
+
+
+}
+
+.a {
+  grid-area: h;
+  background-color: #e81900;
+}
+.b {
+  grid-area: s;
+  background-color: #3800ff;
+}
+
+.c {
+  grid-area: c;
+  background-color: #348000;
+}
+
+.d {
+  grid-area: b;
+  background-color: gray;
+}
+
+.e {
+  grid-area: f;
+  background-color: #7d0085;
+}
+
