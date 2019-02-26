@@ -20,6 +20,22 @@ function renderTodos(todos){
         input.addEventListener("click", handleChecked);
         parent.appendChild(inputParent);
         inputParent.appendChild(input);
+
+
+        const deleteButton = document.createElement('button')
+        deleteButton.className = 'delete'
+        deleteButton.innerHTML = "Delete"
+        parent.appendChild(deleteButton)
+        deleteButton.addEventListener("click", function(e){
+         axios.delete(`https://api.vschool.io/stuart/todo/${todo._id}`).then(function(){
+                deleteButton.remove()
+            })
+        })
+      
+      deleteButton.addEventListener("click", function(e){
+          e.target.parentNode.remove(e.target)
+          renderTodos()
+      })
         if(todo.completed){
             parent.classList.toggle("strikened");
             input.checked = true;
@@ -46,15 +62,6 @@ function handleChecked(e){
     }).catch(err=>console.log(err))
 }
 
-// function checkTodos(todos) {
-//     todos.forEach(function(todo){
-//         if(document.getElementsByClassName("input").checked) {
-//         axios.put("https://api.vschool.io/stuart/todo").then(response =>{
-//             todo.completed = true;
-//         })
-//         }
-//     })
-// }
 
 
   var parent = document.createElement('form')
@@ -86,7 +93,9 @@ function handleChecked(e){
   button.setAttribute("type", "submit")
   parent.appendChild(button)
   button.addEventListener("click", postForm)
- document.getElementById("todo-entry").appendChild(parent);
+  document.getElementById("todo-entry").appendChild(parent);
+
+ 
 
  function postForm(e) {
     e.preventDefault()

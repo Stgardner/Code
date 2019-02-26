@@ -6,18 +6,13 @@ let petObjects = []
 function runForLoop() {
     for (var i = 0; i < pets.length; i++) {
         let pet = { type: pets[i] }
-        if (pets[i] === "cat") {
-            let name = "fluffy"
-        } else {
-            let name = "spot"
+        return (pets[i] === "cat") ? name = "fluffy" : name = "spot"
         }
         pet.name = name
         petObjects.push(pet)
     }
-    return name
-}
+   return name
 
-runForLoop()
 
 const carrots = ["bright orange", "ripe", "rotten"]
 
@@ -49,6 +44,36 @@ const filterFor = people.filter(person => !!person.friendly)
 const sum =  (a, b) => a + b
 
 
-const produceProduce = (a, b) => a * b
+// const produceProduce = (a, b) => a * b
 
-function printString(firstName = "Jane", lastName = "Doe", age = 100) => ({""})
+// function printString(firstName = "Jane", lastName = "Doe", age = 100) => ``
+
+const animals = [
+    {
+        type: "dog",
+        name: "theodore"
+    },
+    {
+        type: "cat",
+        name: "whiskers"
+    },
+    {
+        type: "pig",
+        name: "piglette"
+    },
+    {
+        type: "dog",
+        name: "sparky"
+    }
+ ];
+ 
+ animals.filter(animal => {
+         console.log(animal.type === "dog" ? true : false)
+         })
+
+function greeting(name, location){
+    name = fname
+    location = flocation
+console.log(`Hi ${fname}!\n Welcome to ${flocation}. \n I hope you enjoy your stay. Please ask
+the president of ${flocation} if you need anything.`)
+}

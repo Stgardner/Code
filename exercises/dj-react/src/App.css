@@ -1,0 +1,10 @@
+.box {
+    height: 220px;
+    border: dotted;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
