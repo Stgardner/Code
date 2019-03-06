@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Navbar from "./Navbar"
+import BlogPost from "./Blogpost"
 
 const App = () =>{
   return (

@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
 
     const styles = {
-        backgroundColor: "red",
+        backgroundColor: "#74bfb6",
         width: "100%",
         height: "320px",
         margin: 0,
