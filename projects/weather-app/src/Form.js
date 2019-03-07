@@ -39,10 +39,10 @@ class Form extends React.Component {
             Zip Code: 
             <input type="text" name="zipCode" placeholder="84105" value={this.state.value} onChange={this.handleChange} />
           </label>
-          <label>
+          {/* <label>
             Country:
             <input type="text" name="country" placeholder="us" value={this.state.value} onChange={this.handleChange} />
-          </label>
+          </label> */}
           
          <input type="submit" value="Get Weather" />
           
