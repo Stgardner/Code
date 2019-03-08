@@ -1,0 +1,15 @@
+.weatherIcon {
+    height: 100px;
+    margin-left: 39%;
+    margin-top: 10px
+}
+
+.beep {
+    height: 420px;
+    width: 420px;
+    background-color: rgba(171, 183, 183, .25);
+    border: solid;
+    justify-content: center;
+    margin-left: 31.5%;
+    margin-top: 80px
+}

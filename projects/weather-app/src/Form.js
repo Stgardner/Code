@@ -3,6 +3,7 @@ import {withDataProvider} from "./DataProvider"
 import { withRouter} from "react-router-dom"
 
 
+
 class Form extends React.Component {
     constructor(props) {
       super(props);
@@ -34,10 +35,11 @@ class Form extends React.Component {
       
 
       return (
-        <form onSubmit={this.handleSubmit}>
+        <div>
+        <form onSubmit={this.handleSubmit} style={{marginBottom: "100px", textAlign: "center", margin: "auto", marginBottom: "100",fontSize: "1.5em"}}>
           <label>
             Zip Code: 
-            <input type="text" name="zipCode" placeholder="84105" value={this.state.value} onChange={this.handleChange} />
+            <input required pattern="[0-9]{5}" type="text" name="zipCode" placeholder="84105" value={this.state.value} onChange={this.handleChange} />
           </label>
           {/* <label>
             Country:
@@ -47,6 +49,7 @@ class Form extends React.Component {
          <input type="submit" value="Get Weather" />
           
         </form>
+        </div>
       );
     }
   }

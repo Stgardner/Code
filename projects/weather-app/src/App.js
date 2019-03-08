@@ -4,6 +4,7 @@ import Home from "./Home"
 import Navbar from "./Navbar"
 import Weather from "./Weather"
 import Details from "./Details"
+import "./App.css"
 
 
 function App () {
