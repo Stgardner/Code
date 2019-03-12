@@ -17,6 +17,8 @@ function renderTodos(todos){
         var input = document.createElement("input");
         input.className = "input";
         input.type = "checkbox";
+        var description = document.createTextNode(todo.description)
+        parent.appendChild(description)
         input.addEventListener("click", handleChecked);
         parent.appendChild(inputParent);
         inputParent.appendChild(input);

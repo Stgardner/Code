@@ -9,7 +9,7 @@ export default class DataProvider extends Component {
             
         }
     }
-
+    
     getWeather = async (zipCode) => {
         const apiCall = await fetch(`http://api.openweathermap.org/data/2.5/weather?zip=${zipCode},us&units=imperial&appid=10ad8ead00d1182d923a215ed2b8049a`)
         const data = await apiCall.json()

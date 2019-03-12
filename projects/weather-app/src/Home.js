@@ -2,6 +2,8 @@ import React from "react";
 import Form from "./Form"
 
 
+
+
 const Home = () => {
     const styles = {
         textAlign: "center",

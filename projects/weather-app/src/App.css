@@ -13,3 +13,10 @@
     margin-left: 31.5%;
     margin-top: 80px
 }
+.react-badge{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: "5%";
+  width: "5%"
+}

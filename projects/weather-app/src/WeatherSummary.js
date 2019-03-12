@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import {withDataProvider} from "./DataProvider"
 
+
 class WeatherSummary extends Component {
  
     render() {
+        
+        //converting unix
         let unix = this.props.sunrise
         let date = new Date(unix*1000)
         let newDate = date.toDateString()
+    
         let number = this.props.currentTemp
         let newNumber = Math.floor(number)
         let tempMax = this.props.temp_max
@@ -27,7 +31,9 @@ class WeatherSummary extends Component {
             <div style={{textTransform: 'capitalize', textAlign: "center", margin: "auto", marginBottom: "20px",fontSize: "1.8em"}}>{this.props.description}</div>
             <div style={{textTransform: 'capitalize', textAlign: "center", margin: "auto", marginBottom: "20px",fontSize: "1.8em"}}>{newDate}</div>
             <div style={{textTransform: 'capitalize', textAlign: "center", margin: "auto", marginBottom: "20px",fontSize: "1.8em"}}>{newTempMin}℉   Low / {newTempMax}℉  High</div>
+           
             </div>
+            
         
         )
     
