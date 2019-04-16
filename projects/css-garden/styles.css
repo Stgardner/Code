@@ -2,6 +2,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
 
+@font-face{
+  font-family: 'verde';
+  src: url(verdemoderna.woff)
+}
+
 * {
   -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;    
@@ -43,10 +48,10 @@ header {
   height: 230px;
   padding: 20px 0 70px 0;
 
-  background: #2d6360 50% 0 url(huntington.jpg) no-repeat; /* old IE fallback */
+  background: #2d6360 50% 0 url(http://www.csszengarden.com/214/huntington.jpg) no-repeat; /* old IE fallback */
 
   background-attachment: fixed, fixed, fixed, scroll;
-  background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+  background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
   background-position: 0 0, 0 0, -5px -25px, 0 50%;
   background-repeat: repeat, repeat, repeat, no-repeat;
   background-size: auto, auto, auto, cover;
@@ -185,7 +190,7 @@ p {
 div.participation, div.benefits {
   background-attachment: scroll, scroll, fixed;
   background-color: rgba(138,188,159,0.5);
-  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-image: url(http://www.csszengarden.com/214/contours-opaque.png), url(http://www.csszengarden.com/214/gridlines-opaque.png), url(http://www.csszengarden.com/214/bamboo.png);
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover;
 }
@@ -369,7 +374,7 @@ div.participation p, div.benefits p {
 .zen-resources {
   overflow: hidden;
   background-color: rgba(138,188,159,0.5);
-  background-image: url(bamboo.png);
+  background-image: url(http://www.csszengarden.com/214/bamboo.png);
 }
 .zen-resources li {
   border-top: solid 1px #a0b9ad;
@@ -410,7 +415,7 @@ div.participation p, div.benefits p {
   background: #3e5d67;
 
   background-attachment: fixed, fixed, fixed, scroll;
-  background-image: url(contours.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+  background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
   background-position: 0 0, -5px -25px, 0 0, 0 50%;
   background-repeat: repeat, repeat, repeat, no-repeat;
   background-size: auto, auto, auto, cover;
@@ -669,7 +674,7 @@ footer a::before {
     width: 125px;
     height: 125px;
     margin: -65px 40px 0 0;
-    background: url(enso.svg);
+    background: url(http://www.csszengarden.com/214/enso.svg);
     background-size: 100%;
     opacity: 0.6;
 
@@ -902,27 +907,22 @@ footer a::before {
     (min-resolution: 1.5dppx) {
 
     header {
-        background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+        background-image: url(contours@2x.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
         background-size: 50% auto, auto, auto, cover;
     }
 
     .requirements p:last-child {
-        background-image: url(contours@2x.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+        background-image: url(http://www.csszengarden.com/214/contours.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
         background-size: 50% auto, auto, auto, cover;
     }
 
-    /*
-        This shouldn't be necessary, but it is. Due to differences in how
-        Chrome calculates gradients and % widths / padding, the archives
-        spill out of the visual container at some screen sizes.
-    */
+
     .design-archives nav {
         right: 3%;
         width: 29%;
     }
 }
 
-/* icon fonts */
 @font-face {
 	font-family: 'verdemoderna';
 	src:url('verdemoderna.eot');
