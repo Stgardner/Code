@@ -1,0 +1,60 @@
+.background {
+    background-image: url('https://images.pexels.com/photos/875858/pexels-photo-875858.png?cs=srgb&dl=animal-dawn-desktop-backgrounds-875858.jpg&fm=jpg');
+
+}
+.buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+.key {
+    display: inline-block;  
+    border: 4px solid black;
+    margin: .2rem;
+    border-radius: 40%;
+    font-size: 2rem;
+    padding: 1.2rem .7rem;
+    width: 90px;
+    height: 90px;
+    text-shadow: 0 0 5px#de1805;
+    text-align: center;
+    transition: all 0.07s;
+    background-color: white;
+    
+
+}
+.playing {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+kbd {
+ font-size: 40px;
+ display: block;
+ color: #de1805
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #de1805
+
+}
+
+.header {
+    text-align: center;
+    font-size: 4.5em;
+    margin-top: 5px;
+    color:#d5d49c ;
+    text-shadow: 0 0 5px black;
+
+}
+.drum {
+    text-align: center;
+    margin-left: 28%;
+    margin-bottom: 0;
+}
